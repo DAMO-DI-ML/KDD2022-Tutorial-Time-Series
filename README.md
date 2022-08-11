@@ -1,7 +1,16 @@
 # KDD2022-Tutorial-Time-Series
+
 KDD'22 Tutorial: "Robust Time Series Analysis and Applications: An Industrial Perspective"
 
 Website: https://qingsongedu.github.io/timeseries-tutorial-kdd-2022/
+
+
+
+
+##  Tutorial Date, Time, Location
+- **Date**: 08/14/2022 (mm/dd/yyyy)
+- **Time**: Sun 9:00 am - 12:00 pm
+- **Location**: Room 207B, Washington DC Convention Center, USA
 
 
 ## Tutorial Abstract
@@ -11,9 +20,11 @@ Time series analysis is ubiquitous and important in various areas, such as Artif
 In this tutorial, we provide a comprehensive and organized tutorial on the state-of-the-art algorithms of robust time series analysis, ranging from traditional statistical methods to the most recent deep learning based methods. We will not only introduce the principle of time series algorithms, but also provide insights into how to apply them effectively in practical real-world industrial applications. Specifically, we organize the tutorial in a bottom-up framework. We first present preliminaries from different disciplines including robust statistics, signal processing, optimization, and deep learning. Then, we identify and discuss those most-frequently processing blocks in robust time series analysis, including periodicity detection, trend filtering, seasonal-trend decomposition, and time series similarity. Lastly, we discuss recent advances in multiple time series tasks including forecasting, anomaly detection, fault cause localization, and autoscaling, as well as practical lessons of large-scale time series applications from an industrial perspective. 
 
 
-## Tutorial Outline and Materials
+## Tutorial Materials and Outline
 
-1. Preliminaries [[slides]]()(coming soon)
+### Tutorial [[slides]](https://github.com/qingsongedu/timeseries-tutorial-kdd-2022/blob/main/files/KDD22_Tutorial_Robust%20TS_Final.pdf)
+### Tutorial Outline
+1. Preliminaries 
    - Real-world Challenges and Needs for Robustness
    - Robust Statistics: Robust Regression, M-estimators
    - Signal Processing: Fourier, Wavelet 
@@ -21,20 +32,22 @@ In this tutorial, we provide a comprehensive and organized tutorial on the state
    - Deep Learning: RNN, CNN, GNN, Transformer, Data Augmentation for Time Series
 
 
-2. Robust Time Series Processing Blocks [[slides]]()(coming soon)
+2. Robust Time Series Processing Blocks 
    - Time Series Periodicity Detection
    - Time Series Trend Filtering
    - Time Series Seasonal-Trend Decomposition
    - Time Series Similarity
 
-3. Robust Time Series Applications and Practices [[slides]]()(coming soon)
+3. Robust Time Series Applications and Practices 
    - Forecasting: Tree Model, Deep Ensemble, Transformer, and Case Studies
+   - Autoscaling: Query Modeling, Scaling Decision, and Case Studies
    - Anomaly Detection: Decomposition Model, Deep State Space Model, Transformer, and Case Studies
    - Fault Cause Localization: Rule Set Learning, Root Cause Analysis, and Case Studies
-   - Autoscaling: Query Modeling, Scaling Decision, and Case Studies
+
 
 3. Further Reading:
    - AI for Time Series (AI4TS) Papers, Tutorials, and Surveys [\[GitHub link\]](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
+
 
 
 ## Key References Published by Lecturers
@@ -54,6 +67,9 @@ In this tutorial, we provide a comprehensive and organized tutorial on the state
 - **[ICASSP'21]** Linxiao Yang, Qingsong Wen, Bo Yang, Liang Sun, "A Robust and Efficient Multi-Scale Seasonal-Trend Decomposition," in Proc. IEEE 46th International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2021), Toronto, Canada, Jun. 2021. [[paper]](https://drive.google.com/file/d/17ewVAL-mdwH6QoIka1ZrzAAoyXtph8a3/view)
 - **[KDD'20 WS]** Jingkun Gao, Xiaomin Song, Qingsong Wen, Pichao Wang, Liang Sun, Huan Xu, "RobustTAD: Robust Time Series Anomaly Detection via Decomposition and Convolutional Neural Networks,"  in ACM SIGKDD Workshop on Mining and Learning from Time Series (KDD-MiLeTS 2020), San Diego, CA, Aug. 2020. [[arXiv]](https://arxiv.org/abs/2002.09545)
 - **[TKDE'22]** Longyuan Li, Junchi Yan, Qingsong Wen, Yaohui Jin, and Xiaokang Yang, "Learning Robust Deep State Space for Unsupervised Anomaly Detection in Contaminated Time-Series," IEEE Transactions on Knowledge and Data Engineering (TKDE), 2022. [[paper]](https://ieeexplore.ieee.org/document/9773982)
+- **[TPWRS'22]** Yihong Zhou, Zhaohao Ding, Qingsong Wen, Yi Wang, "Robust Load Forecasting towards Adversarial Attacks via Bayesian Learning," IEEE Transactions on Power Systems (TPWRS 2022), 2022. [[paper]](https://ieeexplore.ieee.org/document/9775206)
+- **[CIKM'22]** Chaoli Zhang, Tian Zhou, Qingsong Wen, Liang Sun, "TFAD: A Decomposition Time Series Anomaly Detection Architecture with Time-Freq Analysis,” in Proc. 31st ACM International Conference on Information and Knowledge Management (CIKM 2022), Atlanta, GA, Oct. 2022. 
+- **[CIKM'22]** Xiaomin Song, Qingsong Wen, and Liang Sun, "Robust Time Series Dissimilarity Measure for Outlier Detection and Periodicity Detection,” in Proc. 31st ACM International Conference on Information and Knowledge Management (CIKM 2022), Atlanta, GA, Oct. 2022. 
 - **[CIKM'21]** Yingying Zhang, Zhengxiong Guan, Huajie Qian, Leili Xu, Hengbo Liu, Qingsong Wen, Liang Sun, Junwei Jiang, Lunting Fan, Min Ke, "CloudRCA: A Root Cause Analysis Framework for Cloud Computing Platforms," in Proc. 30th ACM International Conference on Information and Knowledge Management (CIKM 2021), Queensland, Australia, Nov. 2021. [[arXiv]](https://arxiv.org/abs/2111.03753)
 - **[ICCV'19]** Linxiao Yang, Ngai-Man Cheung, Jiaying Li, and Jun Fang. Deep clustering by gaussian mixture variational autoencoders with graph embedding. In Proc. of the IEEE/CVF International Conference on Computer Vision (ICCV 2019), pages 6440–6449, 2019. [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Deep_Clustering_by_Gaussian_Mixture_Variational_Autoencoders_With_Graph_Embedding_ICCV_2019_paper.pdf)
 - **[KDD'19]** Ming Lin, Xiaomin Song, Qi Qian, Hao Li, Liang Sun, Shenghuo Zhu, and Rong Jin. 2019. Robust Gaussian process regression for real-time high precision GPS signal enhancement. In Proc. of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD 2019). 2838–2847. [[arXiv]](https://arxiv.org/abs/1906.01095)
@@ -91,6 +107,6 @@ If you find our work useful, please cite our work
 ## Related Tutorial
 - IJCAI 2022 Tutorial: [Robust Time Series Analysis: from Theory to Applications in the AI Era](https://sites.google.com/view/timeseries-tutorial-ijcai-2022)
 
-
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=6-pWt_hGW24fe4IIRD8g4PNbhnPT-B-QCUL1m4aUXVw'></script>
 
 
