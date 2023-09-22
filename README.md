@@ -1,7 +1,7 @@
 Welcome to our KDD’22 Tutorial, “Robust Time Series Analysis and Applications: An Industrial Perspective”.
 
 
-<!-- Website: https://qingsongedu.github.io/timeseries-tutorial-kdd-2022/ -->
+<!-- Website: https://github.com/DAMO-DI-ML/KDD2022-Tutorial-Time-Series/ -->
 
 ##  Tutorial Date, Time, Location
 - **Date**: Sunday, 08/14/2022 (mm/dd/yyyy)
